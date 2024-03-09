@@ -54,3 +54,34 @@ input {
   margin-top: 20px;
   text-align: center;
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #446ee7;
+    font-size: 50px;
+  }
+  .container {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+    background: #19a463;
+  }
+  #section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  p {
+    width: 60%;
+  }
+}
