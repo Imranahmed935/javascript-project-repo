@@ -6,26 +6,50 @@
 
 .container {
   max-width: 50%;
+  border-radius: 10px;
   margin: auto;
   margin-top: 40px;
-  background:#ddd;
+  background: #19a463;
+  padding: 50px 0;
 }
 
-
-
-#section{
-    width: 1000px;
-    display: flex;
-    justify-content: center;
-    gap:  20px;
-    text-align: center;
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #446ee7;
+  font-size: 60px;
 }
 
-input{
-    width: 80px;
-    height: 36px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    font-size: 20px;
+p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: -30px;
+  font-size: 30px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 25px;
+  color: azure;
+}
+
+#section {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+input {
+  width: 80px;
+  height: 36px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  background: #ddd;
 }
