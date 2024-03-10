@@ -1,4 +1,4 @@
-const time = "10 march 2024 11:59 pm";
+const time = "10 march 2025 11:59 pm";
 const staticTime = document.getElementById("time");
 staticTime.innerText = time;
 
@@ -15,6 +15,15 @@ const clock = () => {
   input[3].value = Math.floor(diff % 60);
 };
 clock();
-setInterval(() => {
+const timeOut = setInterval(() => {
   clock();
 }, 1000);
+
+const endTime = new Date(time);
+const newTime = new Date();
+const duration = endTime - newTime;
+
+setTimeout(() => {
+  clearInterval(timeOut);
+  alert("The Offer has Expired!");
+}, duration);
