@@ -1,0 +1,16 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.btn-design {
+font-size: 30px !important;
+box-shadow: none !important;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.input-group input[type="search"] {
+width: 500px !important;
+box-shadow: none !important;
+}
